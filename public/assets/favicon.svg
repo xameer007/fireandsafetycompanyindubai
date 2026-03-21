@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64">
+  <defs>
+    <radialGradient id="flame-grad" cx="50%" cy="80%" r="60%">
+      <stop offset="0%" stop-color="#FF6B35"/>
+      <stop offset="60%" stop-color="#CC2A18"/>
+      <stop offset="100%" stop-color="#8B1000"/>
+    </radialGradient>
+  </defs>
+  <!-- Shield background -->
+  <path d="M32 4 L56 14 L56 36 C56 50 44 60 32 62 C20 60 8 50 8 36 L8 14 Z"
+        fill="url(#flame-grad)" rx="4"/>
+  <!-- Flame shape -->
+  <path d="M32 48 C24 44 20 36 22 28 C24 24 26 26 26 30
+           C26 22 30 16 34 12 C34 20 36 22 38 18
+           C42 24 44 32 40 40 C38 44 36 46 32 48 Z"
+        fill="white" opacity="0.92"/>
+</svg>

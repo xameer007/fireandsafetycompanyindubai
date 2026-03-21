@@ -1,0 +1,27 @@
+{
+  "name": "ignishield-fire-safety-dubai",
+  "version": "1.0.0",
+  "description": "IgniShield — DCD A+ Approved Fire & Safety Company in Dubai. SEO-optimised landing page.",
+  "private": true,
+  "scripts": {
+    "dev": "npx serve public -p 3000",
+    "build": "echo 'Static site — no build step required'",
+    "start": "npx serve public -p 3000",
+    "preview": "npx serve public -p 3000 --no-clipboard"
+  },
+  "keywords": [
+    "fire and safety company dubai",
+    "fire fighting company dubai",
+    "fire protection dubai",
+    "DCD approved fire company",
+    "fire alarm installation dubai"
+  ],
+  "author": "IgniShield Fire & Safety LLC",
+  "license": "UNLICENSED",
+  "devDependencies": {
+    "serve": "^14.2.3"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}

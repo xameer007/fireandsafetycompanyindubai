@@ -1,0 +1,60 @@
+{
+  "name": "IgniShield Fire & Safety LLC — Dubai",
+  "short_name": "IgniShield",
+  "description": "Dubai's #1 DCD A+ Approved Fire & Safety Company. Fire alarm installation, fire suppression, fire sprinklers, AMC contracts & UAE Civil Defence compliance.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#FAFAF8",
+  "theme_color": "#CC2A18",
+  "orientation": "portrait-primary",
+  "lang": "en-AE",
+  "dir": "ltr",
+  "scope": "/",
+  "categories": ["business", "utilities"],
+  "icons": [
+    {
+      "src": "/assets/favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/assets/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/assets/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ],
+  "screenshots": [
+    {
+      "src": "/assets/og-image.jpg",
+      "sizes": "1200x630",
+      "type": "image/jpeg",
+      "label": "IgniShield — Fire & Safety Company Dubai Homepage"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Call IgniShield",
+      "short_name": "Call Now",
+      "description": "Call IgniShield fire and safety company Dubai",
+      "url": "tel:+97142000000",
+      "icons": [{ "src": "/assets/favicon.svg", "sizes": "any" }]
+    },
+    {
+      "name": "WhatsApp IgniShield",
+      "short_name": "WhatsApp",
+      "description": "WhatsApp IgniShield fire safety Dubai",
+      "url": "https://wa.me/971501234567",
+      "icons": [{ "src": "/assets/favicon.svg", "sizes": "any" }]
+    }
+  ],
+  "related_applications": [],
+  "prefer_related_applications": false
+}

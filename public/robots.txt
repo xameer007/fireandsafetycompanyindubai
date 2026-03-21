@@ -1,0 +1,16 @@
+User-agent: *
+Allow: /
+
+# Priority crawl paths for fire safety SEO
+Allow: /index.html
+Allow: /sitemap.xml
+
+# Block non-content paths
+Disallow: /api/
+Disallow: /_vercel/
+
+# Sitemap
+Sitemap: https://ignishield.ae/sitemap.xml
+
+# Crawl-delay for polite bots
+Crawl-delay: 1

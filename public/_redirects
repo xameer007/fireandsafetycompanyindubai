@@ -1,0 +1,11 @@
+# IgniShield — Redirect Rules
+# Clean URL redirects
+/index.html   /   301
+/index        /   301
+/home         /   301
+
+# Enforce HTTPS (handled by Vercel automatically, listed for reference)
+# http://ignishield.ae/*  https://ignishield.ae/:splat  301
+
+# SPA fallback — serve index.html for all unmatched routes
+/*    /index.html   200
